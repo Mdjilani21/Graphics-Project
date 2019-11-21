@@ -1,0 +1,22 @@
+Project name :   Baymax playing with ball
+
+Student Name1: Md.Bayzid Rahaman
+Student Id1:   011143080
+
+Student Name2: Faysal Ahmed
+Student Id2:   011143118
+
+
+Description: It is a normal scenario based project. Baymax is a BOT character from a movie 'BIG HERO 6'. Our concept was that Baymax
+	     Playing on a beach with a ball and he can fly and swim. But lastly we can't do that much. In future, we will complete that 
+	     project with full implementation of our idea. 
+	     
+	     Now, Baymax can move only left,right,up and down along with a ball.
+
+
+Instruction: (Button on keyboard)
+	
+	     Move left  -->  left arrow button (keyboard)
+	     Move right -->  right arrow button (keyboard)
+	     Move up    -->  up arrow button (keyboard)
+	     Move down  -->  down arrow button (keyboard)
