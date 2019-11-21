@@ -1,0 +1,82 @@
+# depslib dependency file v1.0
+1535988327 source:g:\study\13th semester\graphics lab\graphics project\graphics_1.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<windows.h>
+	<glut.h>
+	<time.h>
+
+1392007564 g:\study\13th semester\graphics lab\graphics project\opengl\include\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1535833291 source:c:\users\saimoon\desktop\zahid\graphics lab\graphics project\graphics_1.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<windows.h>
+	<glut.h>
+	<time.h>
+
+1392007564 c:\users\saimoon\desktop\zahid\graphics lab\graphics project\opengl\include\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1535909946 source:c:\users\asus\desktop\graphics project\graphics_1.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<windows.h>
+	<glut.h>
+	<time.h>
+
+1392007564 c:\users\asus\desktop\graphics project\opengl\include\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1536591853 source:d:\zahid\study\13th semester\graphics lab\graphics project\graphics_1.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<windows.h>
+	<glut.h>
+	<time.h>
+	<GL/glu.h>
+
+1392007564 d:\zahid\study\13th semester\graphics lab\graphics project\opengl\include\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1536600117 source:\\10.100.100.16\student-submission\graphics lab b\011142151\graphics_1.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<windows.h>
+	<glut.h>
+	<time.h>
+	<GL/glu.h>
+
+1392007564 \\10.100.100.16\student-submission\graphics lab b\011142151\opengl\include\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1536600118 source:e:\class work\graphicslab\graphicsprojects\new folder\011142151\graphics_1.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<windows.h>
+	<glut.h>
+	<time.h>
+	<GL/glu.h>
+
+1392007564 e:\class work\graphicslab\graphicsprojects\new folder\011142151\opengl\include\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+

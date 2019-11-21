@@ -1,0 +1,93 @@
+
+void circle(float radius_x, float radius_y)
+{
+    int i = 0;
+	float angle = 0.0;
+	float PI=3.14159;
+
+  // glColor3f(1, 1, 1);//white
+	glBegin(GL_POLYGON);
+
+		for(i = 0; i < 100; i++)
+		{
+			angle = 2 * PI * i / 100;
+			glVertex3f (cos(angle) * radius_x, sin(angle) * radius_y, 0);
+		}
+
+	glEnd();
+
+}
+
+
+
+void background()
+{
+
+    glPushMatrix();
+    glColor3f(0.57, 0.50, 0.50);
+    glTranslatef(-10,60,0);
+    circle(2,2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.57, 0.57, 0.57);
+    glTranslatef(80,-60,0);
+    circle(3,3);
+    glTranslatef(5,-15,0);
+    circle(3,3);
+    glTranslatef(5,120,0);
+    circle(3,3);
+    glPopMatrix();
+
+
+
+    glPushMatrix();
+    glColor3f(0.51, 0.52, 0.55);
+    glTranslatef(-10,-25,0);
+    circle(2,2);
+    glTranslatef(-5,-30,0);
+    circle(3,3);
+    glTranslatef(40,60,0);
+    circle(3,3);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.74, 0.75, 0.69);
+    glTranslatef(30,20,0);
+    circle(3,3);
+    glTranslatef(-10,-10,0);
+    circle(1,1);
+    glTranslatef(40,50,0);
+    circle(2,2);
+    glPopMatrix();
+
+     glPushMatrix();
+    glColor3f(0.57, 0.50, 0.50);
+    glTranslatef(50,-15,0);
+    circle(3,3);
+    glTranslatef(15,-10,0);
+    circle(2,2);
+    glTranslatef(5,30,0);
+    circle(1,1);
+    glPopMatrix();
+
+     glPushMatrix();
+    glTranslatef(60,50,0);
+    circle(1,1);
+    glTranslatef(50,-60,0);
+    circle(3,3);
+    glTranslatef(5,30,0);
+    circle(2,2);
+    glPopMatrix();
+
+     glPushMatrix();
+      glColor3f(0.74, 0.75, 0.69);
+    glTranslatef(5,-10,0);
+    circle(2,2);
+    glTranslatef(5,-30,0);
+    circle(3,3);
+    glTranslatef(-5,60,0);
+    circle(1,1);
+    glPopMatrix();
+
+ }

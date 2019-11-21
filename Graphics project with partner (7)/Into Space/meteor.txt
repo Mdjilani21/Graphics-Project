@@ -1,0 +1,44 @@
+void meteor(float mx, float my)
+
+{
+   glColor3f(1, 0.62, 0); //orange
+	glBegin(GL_QUADS);
+	{
+	    glVertex3f(mx+15, my+15, 0);
+	    glVertex3f(mx+20, my+15, 0);
+	    glVertex3f(mx+20, my+20, 0);
+	    glVertex3f(mx+15, my+20, 0);
+	}
+	glEnd();
+
+	glBegin(GL_QUADS);
+	{
+	    glVertex3f(mx+10, my+5, 0);
+	    glVertex3f(mx+15, my+5, 0);
+	    glVertex3f(mx+15, my+10, 0);
+	    glVertex3f(mx+10, my+10, 0);
+	}
+	glEnd();
+
+  glColor3f(0.5, 0.34, 0.13); //brown
+	glBegin(GL_QUADS);
+	{
+	    glVertex3f(mx, my, 0);
+	    glVertex3f(mx+25, my, 0);
+	    glVertex3f(mx+25, my+25, 0);
+	    glVertex3f(mx, my+25, 0);
+	}
+	glEnd();
+
+	glBegin(GL_QUADS);
+	{
+	    glVertex3f(mx-5, my+5, 0);
+	    glVertex3f(mx+30, my+5, 0);
+	    glVertex3f(mx+30, my+20, 0);
+	    glVertex3f(mx-5, my+20, 0);
+	}
+	glEnd();
+
+
+
+}
